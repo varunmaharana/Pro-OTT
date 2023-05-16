@@ -17,9 +17,9 @@ const ContentCard = ({
 	// Set thumbnail path according to type.
 	let thumbnailSourcePath = "";
 	if (type === "movie") {
-		thumbnailSourcePath = "/Thumbnails/Movies/" + thumbnailPath;
+		thumbnailSourcePath = "./Thumbnails/Movies/" + thumbnailPath;
 	} else {
-		thumbnailSourcePath = "/Thumbnails/Shows/" + thumbnailPath;
+		thumbnailSourcePath = "./Thumbnails/Shows/" + thumbnailPath;
 	}
 
 	return (
