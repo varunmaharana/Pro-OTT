@@ -59,11 +59,11 @@ const Header = () => {
 			</div>
 			<nav id="topNavbar">
 				<ul>
-					<ListItem redirectPath="/Pro-OTT" text="Home" />
-					<ListItem redirectPath="/shows" text="Shows" />
-					<ListItem redirectPath="/movies" text="Movies" />
-					<ListItem redirectPath="/genres/Comedy" text="Comedy" />
-					<ListItem redirectPath="/news" text="News" />
+					<ListItem redirectPath="/Pro-OTT/" text="Home" />
+					<ListItem redirectPath="/Pro-OTT/shows" text="Shows" />
+					<ListItem redirectPath="/Pro-OTT/movies" text="Movies" />
+					<ListItem redirectPath="/Pro-OTT/genres/Comedy" text="Comedy" />
+					<ListItem redirectPath="/Pro-OTT/news" text="News" />
 				</ul>
 			</nav>
 			<div className="inputs">

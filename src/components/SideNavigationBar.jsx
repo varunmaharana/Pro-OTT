@@ -10,17 +10,17 @@ const SideNavigationBar = () => {
 				<ul>
 					<ListItem
                         iconClass="fa fa-television"
-                        redirectPath="/channels"
+                        redirectPath="/Pro-OTT/channels"
                         text="Channels"
                     />
                     <ListItem
                         iconClass="fa-solid fa-language"
-                        redirectPath="/languages"
+                        redirectPath="/Pro-OTT/languages"
                         text="Languages"
                     />
                     <ListItem
                         iconClass="fa-solid fa-book"
-                        redirectPath="/genres"
+                        redirectPath="/Pro-OTT/genres"
                         text="Genres"
                     />
 				</ul>

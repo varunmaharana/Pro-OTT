@@ -29,13 +29,13 @@ const App = () => {
 			<Routes>
 				{/* Home Route */}
 				<Route
-					path="/Pro-OTT"
+					path="/Pro-OTT/"
 					element={<Home DataList={randomizedProOTTData} />}
 				/>
 
 				{/* Languages Route */}
 				<Route
-					path="/languages"
+					path="/Pro-OTT/languages"
 					element={
 						<Language
 							DataList={randomizedProOTTData}
@@ -46,7 +46,7 @@ const App = () => {
 
 				{/* Genres Route */}
 				<Route
-					path="/genres"
+					path="/Pro-OTT/genres"
 					element={
 						<Genre
 							DataList={randomizedProOTTData}
@@ -57,7 +57,7 @@ const App = () => {
 
 				{/* Channels Route */}
 				<Route
-					path="/channels"
+					path="/Pro-OTT/channels"
 					element={
 						<Channel
 							DataList={randomizedProOTTData}
@@ -68,7 +68,7 @@ const App = () => {
 
 				{/* Movies Route */}
 				<Route
-					path="/movies"
+					path="/Pro-OTT/movies"
 					element={
 						<Movies
 							DataList={randomizedProOTTData}
@@ -79,7 +79,7 @@ const App = () => {
 
 				{/* Shows Route */}
 				<Route
-					path="/shows"
+					path="/Pro-OTT/shows"
 					element={
 						<Shows
 							DataList={randomizedProOTTData}
@@ -90,7 +90,7 @@ const App = () => {
 
 				{/* Comedy Genre Route */}
 				<Route
-					path="/genres/Comedy"
+					path="/Pro-OTT/genres/Comedy"
 					element={
 						<Genre
 							DataList={randomizedProOTTData}
@@ -100,7 +100,7 @@ const App = () => {
 				/>
 				{/* News Route */}
 				<Route
-					path="/news"
+					path="/Pro-OTT/news"
 					element={<Home DataList={randomizedProOTTData} />}
 				/>
 			</Routes>

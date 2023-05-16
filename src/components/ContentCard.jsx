@@ -9,18 +9,26 @@ const ContentCard = ({
 	rating,
 	durationHours,
 	durationMinutes,
-	language,
-	genres,
-	channel,
-	additionalTags,
 }) => {
 	// Set thumbnail path according to type.
 	let thumbnailSourcePath = "";
-	if (type === "movie") {
-		thumbnailSourcePath = "./Thumbnails/Movies/" + thumbnailPath;
+
+	let currPath = window.location.href;
+	if (currPath.substring(currPath.length, currPath.length - 6) === "Comedy") {
+		if (type === "movie") {
+			thumbnailSourcePath = "../Thumbnails/Movies/" + thumbnailPath;
+		} else {
+			thumbnailSourcePath = "../Thumbnails/Shows/" + thumbnailPath;
+		}
 	} else {
-		thumbnailSourcePath = "./Thumbnails/Shows/" + thumbnailPath;
+		if (type === "movie") {
+			thumbnailSourcePath = "./Thumbnails/Movies/" + thumbnailPath;
+		} else {
+			thumbnailSourcePath = "./Thumbnails/Shows/" + thumbnailPath;
+		}
 	}
+
+	// console.log(currPath.substr());
 
 	return (
 		<div className="contentCard">
