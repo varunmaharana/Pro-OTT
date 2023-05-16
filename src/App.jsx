@@ -29,7 +29,7 @@ const App = () => {
 			<Routes>
 				{/* Home Route */}
 				<Route
-					path="/"
+					path="/Pro-OTT"
 					element={<Home DataList={randomizedProOTTData} />}
 				/>
 

@@ -59,7 +59,7 @@ const Header = () => {
 			</div>
 			<nav id="topNavbar">
 				<ul>
-					<ListItem redirectPath="/" text="Home" />
+					<ListItem redirectPath="/Pro-OTT" text="Home" />
 					<ListItem redirectPath="/shows" text="Shows" />
 					<ListItem redirectPath="/movies" text="Movies" />
 					<ListItem redirectPath="/genres/Comedy" text="Comedy" />
